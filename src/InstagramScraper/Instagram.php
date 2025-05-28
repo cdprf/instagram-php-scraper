@@ -415,9 +415,6 @@ class Instagram
 
         }
 
-        //user agent to retrieve account data
-        $this->setUserAgent("Instagram 219.0.0.12.117 Android");
-	
         if ($this->getUserAgent()) {
             $headers['user-agent'] = $this->getUserAgent();
 
